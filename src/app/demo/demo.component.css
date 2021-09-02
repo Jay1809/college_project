@@ -15,7 +15,7 @@ h1{
 marquee{
     background: #cebd60;
     border: 5px solid #000;
-	font-size: 20px;
+	font-size: 40px;
 	font-weight: bold;
 	padding-top: 6px;
 	margin: -23px;
@@ -31,29 +31,31 @@ fieldset{
 	border: 25px solid #000;
 	text-align: center;
 	font-size: 35px;
-	font-family: lato,sans-serif;
+	font-family:'Times New Roman', Times, serif;
 }
 
 input[type=number],[id]{
-    background: #00CC99;
+    background: #52dbf3;
 	border: 5px solid #000;
 	border-radius: 5px;
 	border-width: 4px;
 	color: #36454b;
-	font-size: 15px;
-	margin: 5px;
+	font-size: 20px;
+	margin: 20px;
 	padding: 12px;
 	display: inline-block;
 }
 label{
 	font-weight:bold;
-	border: 5px solid #000;
-	 background: #00CC99;
-	font-size:30px;
+	border:5px solid #000;
+	 background: #52dbf3;
+	font-size:33px;
 	font-family: Times New Roman;
 }
 p{font-weight:bold;
 background: #40be0e;
+border: 10px solid #000;
+
 }
 
 input[type=Convert]{
@@ -75,7 +77,15 @@ input[type=reset]{
 }
 .header-style{
 
-    text-align: center;
-    border: 1px;
-    border-bottom: solid;
+    background: #e79e5a;
+    border: 10px solid #000;
+	text-align: center;
+	font-size: 45px;
+	padding: 20px 1em;
+	font-weight: bold;
+	margin-left: 23%;
+	margin-right: 23%;
+	cursor: pointer;
+	font-family: Times New Roman;
 }
+ 
